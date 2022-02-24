@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    color: palevioletred;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    position: relative;
+    height: 100vh;
+    font-weight: 500;
+}
+
+.left-container {
+    height: 100vh;
+    background-image: url(finance.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.right-container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.sub-text {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.month-container {
+    padding-top: 29%;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.calc-container {
+    padding-top: 22%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.fs-white {
+    color:antiquewhite;
+}
+
+.fs-purple{
+    color: rgb(255, 145, 0);
+}
+
+.budget-container {
+    display: inline-block;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 4px #000000;
+}
+
+.month-amount {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.bottom-border {
+    border-bottom: 1px solid palevioletred;
+}
+
+.expense-row {
+    padding: 10px;
+}
+
+.expense-date {
+    color: rgb(78, 29, 192);
+}
+
+.expense-text {
+    color: rgb(255, 251, 0);
+}
+
+.expense-list {
+    overflow-y: scroll;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.expense-value {
+    text-align: end;
+}
+
+.expense-saving {
+    color: #039300;
+}
+
+.expense-cost {
+    color: #E40000;
+}
+
+.expense-investment {
+    color: #f48803;
+}
+
+#expense-chart {
+    margin: 20% 0;
+}
+
+.btn-submit-expense {
+    border-radius: 50%;
+}
+
+.currency-select {
+    margin: 0 4%;
+}
+
+.selected-currency {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 1%;
+}
+.dropdown-menu{
+    color: black;
+}
